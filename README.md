@@ -16,6 +16,9 @@ Pengalaman yang diharapkan dari pengguna saat mengakses halaman ini adalah:
 3) pada halaman ini pengguna diberitahu tentang pemilik dari web sewa pakaian Nahida tersebut
 ![image](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/3e58cc1b-c0db-42fd-85f7-3d01ac6ef7ca)
 
+4) pada halaman ini pengguna akan disuruh melakukan pengisian form pemesanan pakaian
+![image](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/f6262a43-4e43-46f0-8e2e-efc64035eb4f)
+
 berikut adalah tampilan web saat dibuka pada perangkat seluler
 ![Screenshot 2023-11-17 093240](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/352c5ee3-c33f-4137-accf-2e772138c1db)
 
