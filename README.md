@@ -23,7 +23,8 @@ berikut adalah tampilan web saat dibuka pada perangkat seluler
 
 ![Screenshot 2023-11-17 093312](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/e75b0213-f96b-452c-994e-f3976883332f)
 
-dokumentasi kodingan HTML :
+
+DOKUMENTASI KODINGAN HTML
 
 CSS dan JavaScript:
 - Gaya untuk dokumen tersebut terdapat dalam file CSS eksternal: css/style.css.
@@ -46,6 +47,9 @@ Bagian-Bagian:
 Sumber Daya Eksternal:
 - Ikon diambil dari perpustakaan Ikon Phosphor dan Font Awesome.
 - Perpustakaan JavaScript eksternal untuk fungsionalitas ikon.
+
+
+
 
 DOKUMENTASI KODINGAN CSS
 1. Reset CSS
@@ -98,6 +102,8 @@ DOKUMENTASI KODINGAN CSS
 13. Hamburger Menu Styling:
     ![Screenshot 2023-11-17 212913](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/a8ed64d9-b85d-4508-8117-4718f814f341)
     - Mendesain tombol menu hamburger dengan efek hover.
+
+
 
 
 DOKUMENTASI KODINGAN JS
