@@ -54,15 +54,12 @@ Sumber Daya Eksternal:
 DOKUMENTASI KODINGAN CSS
 1. Reset CSS
    ![Screenshot 2023-11-17 211810](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/72ad4adc-f6a1-4e3c-9310-bd4cdef44789)
-
-
    - Mengatur margin dan padding ke nilai nol.
    - Menggunakan font 'Roboto' dan jenis sans-serif sebagai default.
    - Mengaktifkan perilaku scroll yang halus.
      
 3. Wrapper Styling:
    ![Screenshot 2023-11-17 211825](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/7e4687cd-db3b-4270-86fb-056eaf35c3f2)
-
    - Membuat wrapper dengan lebar 1024px, rata tengah, dan padding.
 
 5. Navigation Styling:
@@ -110,7 +107,6 @@ DOKUMENTASI KODINGAN JS
 
 1. Memilih Elemen DOM:
    ![Screenshot 2023-11-17 213012](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/5609765c-5c90-4715-b740-bf710b47ce3f)
-
    - Menggunakan document.querySelector untuk memilih elemen-elemen DOM berdasarkan kelas.
 
 3. Menambahkan Event Listener:
@@ -120,22 +116,15 @@ DOKUMENTASI KODINGAN JS
 
 5. Fungsi displayMenu:
    ![Screenshot 2023-11-17 213036](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/e881cda8-9584-42a2-9c97-ce652751acff)
-
    - Mengecek apakah menu memiliki kelas tampil. Jika ya, menghapusnya; jika tidak, menambahkannya.
    - Mengganti tampilan ikon antara hamburger dan close.
 
 7. Definisi Kelas Item:
    ![Screenshot 2023-11-17 213100](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/99d3b0de-8835-4746-8deb-343feb0e2cfe)
-
      - Membuat kelas Item dengan konstruktor yang menerima parameter untuk gambar, ukuran, denda, dan waktu pemesanan.
      - Memiliki metode showItem untuk menampilkan item dalam grid HTML dengan memanipulasi innerHTML dari elemen dengan id grid-item.
     
   9. Membuat dan Menampilkan Instansi Kelas Item:
       ![Screenshot 2023-11-17 213123](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/d4f447db-6a68-44ca-860d-81b9f1ba8e6c)
-
-
-
-
-
      - Membuat tiga instansi dari kelas Item dengan berbagai parameter.
      - Memanggil metode showItem untuk menampilkan item dalam grid HTML.
