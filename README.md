@@ -131,3 +131,34 @@ DOKUMENTASI KODINGAN JS
       ![Screenshot 2023-11-17 213123](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/d4f447db-6a68-44ca-860d-81b9f1ba8e6c)
      - Membuat tiga instansi dari kelas Item dengan berbagai parameter.
      - Memanggil metode showItem untuk menampilkan item dalam grid HTML.
+
+Penjelasan mengenai Desain Database :
+
+tb_barang menyimpan data tentang barang yang disewa, seperti ukuran barang, jenis barang, harga barang, dan stok barang.
+tb_pelanggan menyimpan data tentang pelanggan, seperti nama pelanggan, alamat pelanggan, nomor telepon pelanggan, dan email pelanggan.
+tb_transaksi menyimpan data tentang transaksi penyewaan, seperti tanggal sewa, tanggal kembali, jumlah hari, biaya sewa, dan status transaksi.
+Pada gambar tersebut, hubungan antara ketiga tabel tersebut ditunjukkan dengan panah. Panah menunjukkan hubungan one-to-many.
+
+Berikut adalah penjelasan singkat tentang masing-masing tabel:
+1. tb_barang :
+   - id_barang : Primary key untuk mengidentifikasi secara unik setiap barang.
+   - jenis_barang : Jenis barang, seperti pakaian nahida, wig nahida, aksesoris nahida.
+   - harga_barang : Harga barang.
+   - ukuran_barang : Ukuran barang.
+   - stok_barang : Stok barang yang tersedia.
+
+2. tb_pelanggan
+   - id_pelanggan : Primary key untuk mengidentifikasi secara unik setiap pelanggan.
+   - nama_pelanggan : Nama pelanggan.
+   - alamat : Alamat pelanggan.
+   - nomor_telepon : Nomor telepon pelanggan.
+   - email : Email pelanggan.
+     
+3. tb_transaksi
+   - id_transaksi : Primary key untuk mengidentifikasi secara unik setiap transaksi penyewaan.
+   - id_pelanggan : Foreign key yang merujuk ke primary key dari tabel pelanggan.
+   - id_barang : Foreign key yang merujuk ke primary key dari tabel barang.
+   - tanggal_sewa : Tanggal saat transaksi penyewaan dimulai.
+   - tanggal_kembali : Tanggal saat transaksi penyewaan berakhir.
+   - jumlah_hari : Jumlah hari barang disewa.
+   - status_transaksi : Status transaksi, seperti "Menunggu Pembayaran", "Penyewaan", atau "Dikembalikan".
