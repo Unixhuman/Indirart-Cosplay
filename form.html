@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+    <link rel="icon type=image/x-icon" href="logo3.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 30px 0px 30px 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #header {
+            text-align: center;
+            color: white;
+            padding: 80px;
+            width: 100%;
+        }
+
+        #header h1 {
+            margin: 0;
+        }
+
+        form {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Silahkan Isi Form</h1>
+    </header>
+    <form action="#" method="post" name="formSaya" onsubmit="return(validasi());">
+        <label for="nama">Nama:</label>
+        <input type="text" name="nama" id="nama" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+
+        <label for="telp">No Telepon:</label>
+        <input type="number" name="telp" id="telp" required>
+        <br>
+
+        <label for="alamat">Alamat:</label>
+        <textarea name="alamat" id="alamat" rows="4" required></textarea>
+        <br>
+
+        <label for="ukuran">Ukuran:</label>
+        <select name="ukuran" id="ukuran" required>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+        <br>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <script>
+        function validasi() {
+             // Memeriksa apakah nilai nama tidak kosong dan bukan angka
+            if (document.formSaya.nama.value == "" || isNaN(document.formSaya.nama.value) == false) {
+                alert("Nama tidak valid.");
+                document.formSaya.nama.focus();     // Fokus kembali ke input nama
+                return false;                       // Menghentikan proses formulir jika validasi gagal
+            }
+             // Memeriksa apakah nilai email tidak kosong dan bukan angka
+            if (document.formSaya.email.value == "" || isNaN(document.formSaya.email.value) == false) {
+                alert("Email tidak valid.");
+                document.formSaya.email.focus();    // Fokus kembali ke input email
+                return false;
+            }
+            // Memeriksa apakah nilai telepon tidak kosong dan bukan angka
+            if (document.formSaya.telp.value == "" || isNaN(document.formSaya.telp.value)== false) {
+              alert("Nomor telepon tidak valid.");
+              document.formSaya.telp.focus();       // Fokus kembali ke input telepon
+              return false;
+            }
+             // Memeriksa apakah nilai alamat tidak kosong dan bukan angka
+            if (document.formSaya.alamat.value == "" || isNaN(document.formSaya.alamat.value)== false) {
+                alert("Alamat tidak valid.");
+                document.formSaya.alamat.focus();      // Fokus kembali ke input alamat
+                return false;
+            }
+            return true;    // Mengembalikan nilai true jika semua validasi berhasil
+        }
+    </script>
+</body>
+
+</html>
+
