@@ -98,7 +98,7 @@
                 <div class="article">
                     <article>
                         <h2>Saya Indira Artha,</h2>
-                        <p>orang yang ingin berbagi kebahagiaan dengan menyewakan pakaian cosplay hehehe. jika ingin bertanya-tanya tentang pemesanan bisa chat melalui dm ya</p>
+                        <p>orang yang ingin berbagi kebahagiaan dengan menyewakan pakaian cosplay hehehe. jika ingin bertanya-tanya tentang pemesanan dan pembayaran bisa chat melalui dm ya</p>
                         <div class="social">
                             <a href="https://www.instagram.com/indiraartha_"><i class="fa-brands fa-instagram"></i></a>
                             <a href="https://twitter.com/Unixhuman_"><i class="fa-brands fa-twitter"></i></a>
