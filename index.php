@@ -112,7 +112,7 @@
     <footer>
         <div class="wrapper">arigatou gozaimasu !!</div>
     </footer>
-    <!-- <script src="js/main.js"></script> -->
+    <script src="js/respon.js"></script>
 </body>
 
 </html>

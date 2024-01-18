@@ -6,13 +6,13 @@
             padding: 0;
         }
 
-
-
         header {
             background-color: #4F6F52;
             color: #fff;
             padding: 1em;
             text-align: center;
+            position: sticky;
+             top: 0%;
         }
 
         table {
@@ -66,4 +66,4 @@
             width: 100%;
         }
 
-        
+    

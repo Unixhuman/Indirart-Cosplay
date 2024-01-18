@@ -1,6 +1,6 @@
 <?php
 
-$conn =mysqli_connect("localhost","root","","db_human");
+$conn =mysqli_connect("localhost","root","","db_costumnahida");
 
 
 function query($query){

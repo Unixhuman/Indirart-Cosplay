@@ -6,7 +6,7 @@ class Database
     private $host       = "localhost";
     private $username   = "root";
     private $pass       = "";
-    private $db_name    = "db_human";
+    private $db_name    = "db_costumnahida";
 
     protected $db;
     protected function __construct()

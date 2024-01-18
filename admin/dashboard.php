@@ -81,8 +81,8 @@
                         <td>' . $data['jumlah_barang'] . '</td>
                         <td>' . $data['tanggal_sewa'] . '</td>
                         <td>' . $data['tanggal_kembali'] . '</td>
-                        <td>' . ($data['status_sewa'] ? 'Finished' : 'Ongoing') . '</td>
-                        <td><a href="view_transaksi.php?id=' . $data['id_transaksi'] . '">View</a></td>
+                        <td>' . ($data['status_sewa'] ? 'Finished' : 'Sedang diproses') . '</td>
+                        <td><a href="view_transaksi.php?id='.$data['id_transaksi'] . '">View</a></td>
                     </tr>';
                 }
             } else {

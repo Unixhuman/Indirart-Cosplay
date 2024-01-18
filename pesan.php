@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indirart Cosplay | Pesan</title>
     <link rel="icon type=image/x-icon" href="logo2.png">
-    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="https://kit.fontawesome.com/4480f1c8c5.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/pesan.css">
     <?php
     require 'app/Item.php';
@@ -73,7 +75,7 @@
             </div>
             <button class="hamburger-menu">
                 <i class="fa-solid fa-bars icon-bars"></i>
-                <i class="fa-solid fa-xmark icon-close"></i>
+                <i class="fa-solid fa-xmark icon-close"></i>       
             </button>
         </div>
 
@@ -127,6 +129,7 @@
         <div class="wrapper">arigatou gozaimasu !!</div>
     </footer>
     <script src="js/pesanan.js"></script>
+    <script src="js/respon.js"></script>
 </body>
 
 </html>

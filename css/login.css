@@ -73,3 +73,13 @@ form button {
     margin: 30px 0;
     cursor: pointer;
 }
+
+@media (max-width: 600px) {
+    .login-container {
+        width: 100%; /* Lebar penuh untuk tampilan mobile */
+    }
+
+    form {
+        padding: 20px; /* Kembalikan padding untuk tampilan desktop */
+    }
+}

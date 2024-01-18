@@ -4,6 +4,64 @@ body {
     background-size: cover;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+/*
+* menu
+*/
+
+nav {
+    background-color: #40513B;
+    color: #fff;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+}
+
+nav>.wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.Menu {
+    width: 50%;
+}
+
+.Menu>ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.Menu>ul>li>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+    height: 60px;
+}
 * {
     padding: 0;
     margin: 0;
@@ -105,4 +163,142 @@ button {
     padding: 10px 12px;
     border-radius: 5px;
     font-size: 9pt;
+}
+
+footer {
+    background-color: #40513B;
+    color: #ffffff;
+    text-align: center;
+}
+
+button.hamburger-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+button.hamburger-menu>i {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+button.hamburger-menu>i.icon-close {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .grid {
+        grid-template-columns: 45% 45%;
+    }
+
+    .item>img {
+        width: 8%;
+    }
+}
+
+
+/* CSS untuk ukuran layar kecil (mobile) */
+@media screen and (max-width: 600px) {
+    .pesan-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .pesan-item {
+        flex-direction: column;
+    }
+
+    .pesan-item img {
+        width: 100%;
+    }
+
+    .pesan-item h3 {
+        font-size: 18pt;
+    }
+
+    .pesan-field,
+    form input,
+    form select {
+        width: 100%;
+    }
+
+    .pesan-action {
+        width: 100%;
+    }
+
+    button.hamburger-menu {
+        display: inline;
+    }
+
+    .Menu {
+        display: none;
+    }
+
+    .tampil {
+        display: inline;
+    }
+
+    .tampil>ul {
+        flex-direction: column;
+        background-color: #719161;
+        width: 100%;
+        position: fixed;
+        top: 85px;
+        left: 0px;
+    }
+
+    .tampil>ul>li {
+        color: #ffffff;
+        padding: 10px 20px 10px 20px;
+        display: block;
+        border-bottom: 1px solid #ffffff;
+}
+
+}
+
+.button {
+    background-color: #fdffa4;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+}
+
+.button-xl {
+    font-size: 1.4rem;
+    padding: 20;
+}
+
+.Menu>ul>li>a:hover,
+.tampil>ul>li:hover {
+    background-color: #719161;
+}
+
+.Menu>ul>li>a:hover,
+#pilihan-item>h4:hover,
+#tentang-saya>h4:hover {
+    color: #fdffa4;
+}
+
+button.hamburger-menu:hover {
+    background-color: #719161;
+}
+
+button.hamburger-menu:hover>i {
+    color: #fdffa4;
 }
