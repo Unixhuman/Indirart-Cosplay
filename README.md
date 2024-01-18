@@ -162,3 +162,16 @@ Berikut adalah penjelasan singkat tentang masing-masing tabel:
    - tanggal_kembali : Tanggal saat transaksi penyewaan berakhir.
    - jumlah_hari : Jumlah hari barang disewa.
    - status_transaksi : Status transaksi, seperti "Menunggu Pembayaran", "Penyewaan", atau "Dikembalikan".
+
+# Penjelasan Tech Stack
+Stack teknologi yang digunakan dalam web yaitu
+1. Front-End
+   - HTML digunakan untuk membuat struktur dan konten halaman web
+   - CSS untuk memberikan tata letak, gaya, dan desain visual pada elemen-elemen HTML
+   - JavaScript untuk memberikan interaktivitas pada sisi klien (frontend). Beberapa skrip JavaScript ditempatkan dalam file barang.js, main.js, pesanan.js, dan respon.js. Ini termasuk logika untuk menampilkan item, menghitung harga, dan mengelola tampilan responsif.
+   - Font Awesome untuk ikon
+   - Phosphor Icons untuk ikon tambahan
+2. Back-end
+   - PHP untuk mengelola sisi server (backend). contohnya file index.php mencakup logika PHP untuk menangani pengaturan sesi, pengambilan data barang dari database, dan menampilkan item pada halaman web. File functions.php berisi fungsi-fungsi PHP untuk query ke database dan registrasi pengguna (pelanggan dan admin).
+3. Database
+   - MySQL digunakan sebagai sistem manajemen basis data (RDBMS).
