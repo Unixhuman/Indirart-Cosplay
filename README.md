@@ -5,7 +5,7 @@ Pengalaman yang diharapkan dari pengguna saat mengakses halaman ini adalah:
 2. mengetahui harga penyewaan pakaian
 3. mengetahui denda yang dikenai jika merusak barang sewa
 
-#dokumentasi web 
+# Dokumentasi Web
 
 1) Pada halaman ini pengguna akan diberitahu tentang apa yang ada di dalam web tersebut
 ![image](https://github.com/Unixhuman/UTS-Pemograman-Web/assets/146809846/5332187d-bc04-4ecf-ba7a-80c1ea0be633)
