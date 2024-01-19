@@ -159,3 +159,7 @@ Stack teknologi yang digunakan dalam web yaitu
    4. Eksekusi skrip SQL "indirart_cosplay.sql" di server MySQL untuk membuat database dan tabel yang diperlukan. Bisa dilakukan melalui phpMyAdmin atau terminal MySQL.
    5. Pastikan semua file yang terlibat dalam aplikasi ini berada di server web PHP yang sesuai.
    6. Pastikan izin file dan folder sudah diatur dengan benar agar PHP dapat membaca dan menulis file jika diperlukan.
+
+# Penjelasan Intruksi Penggunaan Web
+1. saat memasuki web, pelanggan akan ditampilkan halaman home
+   ![image](image.png)
