@@ -161,5 +161,32 @@ Stack teknologi yang digunakan dalam web yaitu
    6. Pastikan izin file dan folder sudah diatur dengan benar agar PHP dapat membaca dan menulis file jika diperlukan.
 
 # Penjelasan Intruksi Penggunaan Web
+PELANGGAN : 
 1. saat memasuki web, pelanggan akan ditampilkan halaman home
    ![image](image.png)
+2. pelanggan diwajibkan untuk melakukan log in sebelum memesan barang (KLIK TOMBOL LOG IN)
+   ![image](image-1.png)
+   jika belum memiliki akun, pelanggan bisa melakukan registrasi dengan cara klik link "registrasi disini"
+   ![image](image-2.png)
+   pastikan pelanggan mengisi data dengan benar. setelah mengisi data klik register lalu kembali ke halaman log in dan memasukan email dan password yang sudah didaftarkan
+3. Setelah log in, pelanggan akan ditampilkan halaman home lagi.
+   ![image](image-3.png)
+   untuk melihat barang yang disewa, pelangan bisa klik tombol "pesan sekarang" atau scroll kebawah.
+   ![image](image-4.png)
+4. setelah pelanggan sudah tau barang yang mau dibeli, pelanggan tinggal klik tombol "pesan" yang sudah disediakan disetiap daftar item
+5. setelah klik tombol "pesan", pelanggan akan ditampilkan halaman form pemesanan. pastikan pelanggan mengisi data benar dan sesuai keinginan. setelah selesai memesan klik tombol "sewa sekarang"
+   ![image](image-5.png)
+6. setelah melakukan pemesanan sudah berhasil, pelanggan bisa kembali ke halaman home dan membaca "tentang saya" untuk membaca mengenai pemesanan dan pembayaran
+   ![image](image-6.png)
+
+ADMIN :
+Penggunaan web untuk admin sama persis seperti penggunaan pada pelanggan
+1. admin wajib melakukan log in terlebih dahulu
+   ![image](image-7.png)
+   jika belum punya akun, admin bisa melakukan registrasi terlebih dahulu dengan cara klik link "registrasi disini"
+   ![image](image-8.png)
+   pastikan data diisi dengan benar. setelah melakukan registrasi, admin kembali ke halaman log in untuk melakukan log in dengan data yang sudah diisi pada registrasi
+2. setelah log in, admin akan ditampilkan ahalam daftar barang sewa yang sudah dipesan pelanggan
+   ![image](image-9.png)
+   untuk melihat pemilik barang yang disewa dan detail barang yang dibeli, admin klik link view yang berada paling kanan
+   ![image](image-10.png)
