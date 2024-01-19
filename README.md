@@ -153,3 +153,9 @@ Stack teknologi yang digunakan dalam web yaitu
 
 
 # Penjelasan instruksi konfigurasi
+   1. Buka file dbconfig.php
+   2. Atur nilai variabel $host, $user, $password, dan $database sesuai dengan informasi koneksi database MySQL. Pastikan informasi ini sesuai dengan pengaturan server MySQL
+   3. Pastikan untuk memeriksa dan menyesuaikan logika otentikasi pada "auth.php". Pastikan fungsi login, logout, dan lainnya bekerja dengan benar sesuai kebijakan keamanan yang diinginkan
+   4. Eksekusi skrip SQL "indirart_cosplay.sql" di server MySQL untuk membuat database dan tabel yang diperlukan. Bisa dilakukan melalui phpMyAdmin atau terminal MySQL.
+   5. Pastikan semua file yang terlibat dalam aplikasi ini berada di server web PHP yang sesuai.
+   6. Pastikan izin file dan folder sudah diatur dengan benar agar PHP dapat membaca dan menulis file jika diperlukan.
