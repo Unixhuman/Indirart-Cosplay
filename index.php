@@ -50,8 +50,6 @@
 
     </nav>
 
-    <!-- hero / jumbotron -->
-
     <header>
         <section id="home">
             <div class="header-opacity"></div>
