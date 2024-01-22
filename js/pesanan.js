@@ -1,6 +1,3 @@
-
-
-
 function validateForm() {
     const sizeField = document.pesanForm.ukuran.value;
     const jumlahField = document.pesanForm.jumlah.value;
