@@ -1,9 +1,24 @@
 # Web Page Idea
 Tema halaman ini adalah web sewa pakaian cosplay Nahida. Penggunanya adalah orang-orang yang tertarik dengan cosplay khususnya character Nahida. 
-Pengalaman yang diharapkan dari pengguna saat mengakses halaman ini adalah:
-1. mengetahui item yang dipakai saat cosplay character Nahida
-2. mengetahui harga penyewaan pakaian
-3. mengetahui denda yang dikenai jika merusak barang sewa
+Pengalaman yang diharapkan dari pengguna saat mengakses halaman ini mungkin melibatkan beberapa aspek berikut:
+
+1. **Navigasi yang Intuitif:** Pengguna dapat dengan mudah menavigasi halaman menggunakan antarmuka yang intuitif. Menu atau tautan yang jelas dapat membimbing mereka ke halaman-halaman terkait atau fitur-fitur yang mereka cari.
+
+2. **Tampilan yang Menarik dan Bersih:** Desain halaman yang estetis dan bersih membantu menciptakan pengalaman pengguna yang positif. Pengguna dapat dengan mudah memahami struktur informasi dan fokus pada konten utama.
+
+3. **Keterlibatan Konten yang Relevan:** Halaman menyediakan konten yang relevan dan bermanfaat sesuai dengan tujuan pengguna. Informasi yang disajikan jelas, mudah dipahami, dan memberikan nilai tambah.
+
+4. **Responsif dan Cepat:** Halaman merespons dengan cepat terhadap interaksi pengguna, seperti klik atau masukan formulir. Pengguna mengharapkan pengalaman yang mulus tanpa waktu tunggu yang berlebihan.
+
+5. **Keamanan dan Privasi:** Pengguna mengharapkan bahwa data pribadi mereka aman dan bahwa situs web ini mematuhi standar keamanan dan privasi yang berlaku.
+
+6. **Fungsionalitas yang Tepat:** Setiap fitur atau fungsi di halaman berfungsi sesuai dengan harapan. Tidak ada bug atau masalah teknis yang menghambat pengalaman pengguna.
+
+7. **Dukungan Responsif:** Jika ada formulir kontak atau saluran dukungan, pengguna mengharapkan tanggapan yang cepat dan membantu jika mereka memiliki pertanyaan atau masalah.
+
+8. **Kemudahan dalam Tindakan:** Jika ada tindakan yang diharapkan dari pengguna (misalnya, mengisi formulir, melakukan pembelian, atau mendaftar), proses tersebut harus mudah dipahami dan diselesaikan.
+
+Setiap pengguna mungkin memiliki harapan yang sedikit berbeda berdasarkan kebutuhan dan tujuan mereka, tetapi keseluruhan, pengalaman yang baik akan meningkatkan kepuasan pengguna dan kemungkinan kembali ke situs web tersebut.
 
 # Dokumentasi Web
 
