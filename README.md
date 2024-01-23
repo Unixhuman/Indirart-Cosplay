@@ -18,8 +18,6 @@ Pengalaman yang diharapkan dari pengguna saat mengakses halaman ini mungkin meli
 
 8. **Kemudahan dalam Tindakan:** Jika ada tindakan yang diharapkan dari pengguna (misalnya, mengisi formulir, melakukan pembelian, atau mendaftar), proses tersebut harus mudah dipahami dan diselesaikan.
 
-Setiap pengguna mungkin memiliki harapan yang sedikit berbeda berdasarkan kebutuhan dan tujuan mereka, tetapi keseluruhan, pengalaman yang baik akan meningkatkan kepuasan pengguna dan kemungkinan kembali ke situs web tersebut.
-
 # Dokumentasi Web
 
 1) Pada halaman ini pengguna akan diberitahu tentang apa yang ada di dalam web tersebut
